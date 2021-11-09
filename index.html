@@ -11,18 +11,171 @@
 
 <body>
 
-    <form>
+    <!--Part 1: The Alerter -->
+    <form id="the-alerter">
+
         <div>
-            <label>Input</label>
-            <input id="input-text" type="text" />
+            <label>The Alerter</label>
+        </div>
+        <div>
+            <label for="">Input Text:</label>
+            <input id="input-text" type="text">
         </div>
 
-
-
-        <input id="input-submit" type="submit" />
+        <input id="input-submit" type="submit">
 
     </form>
 
+    <!-- Part 2: Sandwich Builder -->
+    <form id="sandwich-builder">
+
+        <div>
+            <label>Sandwich builder</label>
+        </div>
+
+        <div id="">Bread type:</div>
+
+        <div>
+            <input id="wheat" type="radio" name="type-of-bread">
+            <label>Wheat</label>
+        </div>
+        <div>
+            <input id="sourdough" type="radio" name="type-of-bread">
+            <label>Sourdough</label>
+        </div>
+        <div>
+            <input id="italian" type="radio" name="type-of-bread">
+            <label>Italian</label>
+        </div>
+
+        <div>Meat:</div>
+
+        <div>
+            <input id="turkey" type="checkbox">
+            <label>Turkey</label>
+        </div>
+        <div>
+            <input id="roastBeef" type="checkbox">
+            <label>Roase beef</label>
+        </div>
+        <div>
+            <input id="ham" type="checkbox">
+            <label>Ham</label>
+        </div>
+        <div>
+            <input id="chickenBreast" type="checkbox">
+            <label>Chicken Breast</label>
+        </div>
+
+        <div>Veggies:</div>
+
+        <div>
+            <input id="tomatoes" type="checkbox">
+            <label>Tomatoes</label>
+        </div>
+        <div>
+            <input id="onions" type="checkbox">
+            <label>Onions</label>
+        </div>
+        <div>
+            <input id="pickles" type="checkbox">
+            <label>Pickles</label>
+        </div>
+
+
+        <input id="sandwich-submit" type="submit">
+
+    </form>
+
+    <!-- Part 3: Haircut Appointment Scheduler -->
+    <form id="haircut-appointment">
+
+        <div>
+            <label>Haircut appointment scheduler</label>
+        </div>
+
+        <div id="">Date:</div>
+
+        <div>
+            <input id="appointment-date" type="date" name="">
+        </div>
+
+        <div>
+            <label>Hair Cutter:</label>
+        </div>
+        <div>
+            <input id="hair-cutter-text" type="text">
+        </div>
+
+        <div>
+            <label>Long or Short Hair:</label>
+        </div>
+        <div>
+            <input id="long-hair" type="radio" name="type-of-hair">
+            <label>Long hair</label>
+        </div>
+        <div>
+            <input id="short-hair" type="radio" name="type-of-hair">
+            <label>Short hair</label>
+        </div>
+
+
+        <input id="haircut-appointment-submit" type="submit">
+
+    </form>
+
+    <!-- Part 4: Create Account -->
+    <form id="create-account">
+
+        <div>
+            <label>Create Account</label>
+        </div>
+
+        <label for="">User Name:</label>
+        <div>
+            <input id="username-text" type="text">
+        </div>
+
+        <label for="">Email:</label>
+        <div>
+            <input id="email-text" type="text">
+        </div>
+
+        <label for="">Password:</label>
+        <div>
+            <input id="password-text" type="password">
+        </div>
+
+        <label for="">Confirm Password:</label>
+        <div>
+            <input id="confirm-password-text" type="password">
+        </div>
+
+        <input id="create-account-submit" type="submit">
+
+    </form>
+
+    <!-- Part 5: Login -->
+    <!-- Part 4: Create Account -->
+    <form id="login">
+
+        <div>
+            <label>Account Login</label>
+        </div>
+
+        <label for="">Username:</label>
+        <div>
+            <input id="login-username-text" type="text">
+        </div>
+
+        <label for="">Password:</label>
+        <div>
+            <input id="login-password-text" type="password">
+        </div>
+
+        <input id="login-submit" type="submit">
+
+    </form>
 
     <script src="main.js"></script>
 </body>
