@@ -183,7 +183,6 @@ login.addEventListener("submit", function (event) {
 	event.preventDefault();
 	let userPresent = false;
 	let location = 0;
-	let passwordMatch = false;
 
 	let str = "";
 
@@ -203,5 +202,5 @@ login.addEventListener("submit", function (event) {
 	}
 
 	alert(str);
-	createAccount.reset();
+	login.reset();
 });
